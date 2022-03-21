@@ -1,0 +1,23 @@
+.header {
+  background-color: #1C2B35;
+  height: 5rem;
+}
+
+.nav-bar {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+  }
+}

@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  gap: 2.25rem;
+}
+
+.menu li a {
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 0;
+}
+
+.menu li a:hover {
+  color: #ff9900;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+
+  .menu.mobile {
+    position: absolute;
+    display: block;
+    background-color: #1C2B35;
+    top: 6rem;
+    padding: 2rem;
+    width: 90%;
+    border-radius: 1rem;
+  }
+
+  .menu.mobile li {
+    margin-bottom: 1.5rem; 
+  }
+
+  .menu.mobile li:last-child {
+    margin-bottom: 0;
+  }
+
+  .menu.mobile li a {
+    font-size: 1.5rem;
+  }
+}
