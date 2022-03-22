@@ -15,9 +15,10 @@ const Shop = () => {
   }, []);
 
   const addToCartHandler = product => {
-    const newCart = [...cart, product];
-    setCart(newCart);
-    console.log(newCart);
+    setCart(prevState => {
+      const newCart = [...prevState, product];
+      return newCart
+    });
   };
 
   return (
