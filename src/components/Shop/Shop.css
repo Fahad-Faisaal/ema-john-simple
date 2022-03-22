@@ -17,7 +17,8 @@
 
 */
 .cart-container {
-  background-color: beige;
+  background-color: #ff99004d;
+  font-family: 'Lato';
 }
 
 @media only screen and (max-width: 600px) {
