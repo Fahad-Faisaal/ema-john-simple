@@ -7,7 +7,7 @@
   font-family: 'Lato';
   width: 300px;
   height: 510px;
-  border: 1px solid #95A0A7;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
   border-radius: 8px;
 }
 
@@ -64,6 +64,8 @@
   border: none;
   outline: none;
   border-radius: 0px 0px 8px 8px;
+  font-weight: 900;
+  letter-spacing: .85px;
   height: 100%;
   font-size: 16px;
   cursor: pointer;
