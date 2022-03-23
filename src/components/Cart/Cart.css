@@ -8,6 +8,11 @@
   margin-bottom: 25px;
 }
 
+.cart {
+  position: sticky;
+  top: 28px;
+}
+
 .summary-title {
   font-size: 25px;
   color: #1C2B35;
@@ -38,7 +43,7 @@
   font-size: 16px;
   letter-spacing: .55px;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all .17s ease-in-out;
 }
 
 .btn-clear {
