@@ -19,6 +19,7 @@
 .cart-container {
   background-color: #ff99004d;
   font-family: 'Lato';
+  min-height: calc(100vh - 5rem);
 }
 
 @media only screen and (max-width: 600px) {

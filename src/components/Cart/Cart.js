@@ -15,8 +15,6 @@ const Cart = ({cart}) => {
   const taxAmount = (totalPrice * .15).toFixed(2);
 
   const grandTotal = (totalPrice + shippingCharge + +taxAmount).toFixed(2);
-
-  console.log(cart);
   
   return (
     <div className='cart'>

@@ -9,6 +9,7 @@
   height: 510px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
   border-radius: 8px;
+  margin-bottom: 48px;
 }
 
 .product-image {
