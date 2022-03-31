@@ -1,20 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './NavMenu.css';
 
 const NavMenu = (props) => {
   return (
     <ul className={`menu ${props.mobile}`}>
       <li>
-        <a href="/shop">Shop</a>
+        <Link className='nav-link' to="/shop">Shop</Link>
       </li>
       <li>
-        <a href="/orders">Orders</a>
+        <Link className='nav-link' to="/orders">Orders</Link>
       </li>
       <li>
-        <a href="/inventory">Manage Inventory</a>
+        <Link className='nav-link' to="/inventory">Manage Inventory</Link>
       </li>
       <li>
-        <a href="/about">About us</a>
+        <Link className='nav-link' to="/about">About us</Link>
       </li>
     </ul>
   );

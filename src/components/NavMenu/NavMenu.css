@@ -3,13 +3,13 @@
   gap: 2.25rem;
 }
 
-.menu li a {
+.menu li .nav-link {
   color: #fff;
   font-size: 1rem;
   padding: .5rem 0;
 }
 
-.menu li a:hover {
+.menu li .nav-link:hover {
   color: #ff9900;
 }
 

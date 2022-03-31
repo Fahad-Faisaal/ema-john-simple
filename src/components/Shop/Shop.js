@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import useCart from '../../hooks/useCart';
 import useProducts from '../../hooks/useProducts';
 import { addToDb, getStoredCart } from '../../utilities/fakedb';
@@ -41,7 +42,9 @@ const Shop = () => {
         }
       </section>
       <section className="cart-container">
-        <Cart cart={cart} /> 
+        <Cart cart={cart}>
+          Review Orders
+        </Cart>
       </section>
     </div>
   );
